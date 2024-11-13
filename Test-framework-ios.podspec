@@ -11,8 +11,8 @@ Pod::Spec.new do |spec|
   spec.author       = { "tingzhi.zhou" => "tingzhi.zhou@yiartkeji.com" }
   spec.platform     = :ios, "12.0"
   spec.source       = { :git => 'https://github.com/zhou-ztz/Test-framework-ios.git', :tag => '1.0.1'}
-  spec.vendored_frameworks = "Test-framework-ios.framework"
-  spec.source_files  = "Test-framework-ios.framework/**/*.h"
+  spec.vendored_frameworks = "Test_framework_ios.framework"
+  spec.source_files  = "Test_framework_ios.framework/**/*.h"
   spec.requires_arc  = true
   spec.dependency "SDWebImage", "5.17.0"
   spec.dependency "SnapKit"
