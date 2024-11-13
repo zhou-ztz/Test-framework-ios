@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Test-framework-ios"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   pec.summary      = "这个是一个测试的demo description of Test-framework-ios."
 
   spec.description  = <<-DESC
@@ -31,8 +31,6 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = "Test-framework-ios.framework"
   spec.source_files  = "Test-framework-ios.framework/**/*.h"
   spec.requires_arc  = true
- 
-  #spec.resources = "Resources/SDKResources/*.png"
 
   spec.dependency "SDWebImage", '5.17.0'
   spec.dependency "SnapKit", '5.0.0
