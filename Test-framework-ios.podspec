@@ -17,4 +17,5 @@ Pod::Spec.new do |spec|
   spec.dependency "SDWebImage", "5.17.0"
   spec.dependency "SnapKit"
   spec.dependency "Alamofire", "4.8.1"
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 end
