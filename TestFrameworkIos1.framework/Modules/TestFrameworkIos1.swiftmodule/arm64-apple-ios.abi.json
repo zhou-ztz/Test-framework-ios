@@ -9,7 +9,7 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "Test_framework_ios",
+        "moduleName": "TestFrameworkIos1",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -19,21 +19,21 @@
         "name": "SnapKit",
         "printedName": "SnapKit",
         "declKind": "Import",
-        "moduleName": "Test_framework_ios"
+        "moduleName": "TestFrameworkIos1"
       },
       {
         "kind": "Import",
         "name": "SDWebImage",
         "printedName": "SDWebImage",
         "declKind": "Import",
-        "moduleName": "Test_framework_ios"
+        "moduleName": "TestFrameworkIos1"
       },
       {
         "kind": "Import",
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
-        "moduleName": "Test_framework_ios"
+        "moduleName": "TestFrameworkIos1"
       },
       {
         "kind": "TypeDecl",
@@ -52,9 +52,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18Test_framework_ios7EatViewC5setUIyyF",
-            "mangledName": "$s18Test_framework_ios7EatViewC5setUIyyF",
-            "moduleName": "Test_framework_ios",
+            "usr": "s:17TestFrameworkIos17EatViewC5setUIyyF",
+            "mangledName": "$s17TestFrameworkIos17EatViewC5setUIyyF",
+            "moduleName": "TestFrameworkIos1",
+            "isOpen": true,
             "declAttributes": [
               "Custom",
               "AccessControl"
@@ -69,8 +70,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "EatView",
-                "printedName": "Test_framework_ios.EatView",
-                "usr": "c:@M@Test_framework_ios@objc(cs)EatView"
+                "printedName": "TestFrameworkIos1.EatView",
+                "usr": "c:@M@TestFrameworkIos1@objc(cs)EatView"
               },
               {
                 "kind": "TypeNominal",
@@ -80,9 +81,9 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@Test_framework_ios@objc(cs)EatView(im)initWithFrame:",
-            "mangledName": "$s18Test_framework_ios7EatViewC5frameACSo6CGRectV_tcfc",
-            "moduleName": "Test_framework_ios",
+            "usr": "c:@M@TestFrameworkIos1@objc(cs)EatView(im)initWithFrame:",
+            "mangledName": "$s17TestFrameworkIos17EatViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "TestFrameworkIos1",
             "overriding": true,
             "implicit": true,
             "objc_name": "initWithFrame:",
@@ -102,13 +103,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Test_framework_ios.EatView?",
+                "printedName": "TestFrameworkIos1.EatView?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "EatView",
-                    "printedName": "Test_framework_ios.EatView",
-                    "usr": "c:@M@Test_framework_ios@objc(cs)EatView"
+                    "printedName": "TestFrameworkIos1.EatView",
+                    "usr": "c:@M@TestFrameworkIos1@objc(cs)EatView"
                   }
                 ],
                 "usr": "s:Sq"
@@ -121,9 +122,9 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@Test_framework_ios@objc(cs)EatView(im)initWithCoder:",
-            "mangledName": "$s18Test_framework_ios7EatViewC5coderACSgSo7NSCoderC_tcfc",
-            "moduleName": "Test_framework_ios",
+            "usr": "c:@M@TestFrameworkIos1@objc(cs)EatView(im)initWithCoder:",
+            "mangledName": "$s17TestFrameworkIos17EatViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "TestFrameworkIos1",
             "overriding": true,
             "implicit": true,
             "objc_name": "initWithCoder:",
@@ -137,9 +138,10 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Test_framework_ios@objc(cs)EatView",
-        "mangledName": "$s18Test_framework_ios7EatViewC",
-        "moduleName": "Test_framework_ios",
+        "usr": "c:@M@TestFrameworkIos1@objc(cs)EatView",
+        "mangledName": "$s17TestFrameworkIos17EatViewC",
+        "moduleName": "TestFrameworkIos1",
+        "isOpen": true,
         "declAttributes": [
           "Custom",
           "AccessControl",
