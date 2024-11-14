@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "Test-framework-ios"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary       = "这个是一个测试的demo description of Test-framework"
   spec.description  = <<-DESC
                    这个是一个测试的demo description of Test-framework-ios
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author       = { "tingzhi.zhou" => "tingzhi.zhou@yiartkeji.com" }
   spec.platform     = :ios, "12.0"
-  spec.source       = { :git => 'https://github.com/zhou-ztz/Test-framework-ios.git', :tag => '1.0.2'}
+  spec.source       = { :git => 'https://github.com/zhou-ztz/Test-framework-ios.git', :tag => '1.0.3'}
   spec.vendored_frameworks = "Test_framework_ios.framework"
   spec.source_files  = "Test_framework_ios.framework/**/*.h"
   spec.requires_arc  = true
